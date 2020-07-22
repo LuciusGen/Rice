@@ -15,7 +15,7 @@ def EXY_YIQ(p):
     return 2 * Y_n - I_n - Q_n
 
 
-def elongation_feature(image) -> double:
+def elongation_feature(image):
     try:
         length = len(image)
         width = len(image[0])
